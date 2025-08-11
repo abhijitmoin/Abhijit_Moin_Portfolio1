@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhijit Moin | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Abhijit Bhagvan Moin</h1>
+        <p class="tagline">Frontend Developer | JavaScript Enthusiast</p>
+        <nav id="navbar">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="buttons">
+          <a href="Abhijit_Moin_CV.pdf" download target="_blank" style="color:rgba(0, 0, 255, 0.167);">
+            <button class="btn" id="btn1">Download CV</button>
+          </a>
+          <button class="btn" id="btn2">Contact Me</button>
+        </div>
+      </div>
+      <div class="profile-photo">
+        <img src="profile.jpg" alt="Abhijit Moin" />
+      </div>
+    </div>
+
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Highly motivated and detail-oriented B.Tech student in Computer Science and Engineering with a 6.5 CGPA (till 7th
+      semester) from CSMSS Chh. Shahu College of Engineering. Demonstrated hands-on experience in full-stack web
+      development through projects and Proficient in creating dynamic, secure, and
+      user-friendly web applications using HTML, CSS, JavaScript, Node.js, Express.js, MySQL, and MongoDB. Skilled in
+      front-end and back-end development with a strong focus on user authentication and payment integration.
+      Collaborative team player with a talent for innovating solutions to real-world problems. Certified in Core Java
+      and Full Stack Web Development, possessing excellent communication skills and a passion for continuous learning.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="card">
+        <div class="bacisInfo">HTML</div>
+        <div class="info">90%</div>
+      </div>
+      <div class="card">
+        <div class="bacisInfo">CSS</div>
+        <div class="info">85%</div>
+      </div>
+      <div class="card">
+        <div class="bacisInfo">JavaScipt</div>
+        <div class="info">70%</div>
+      </div>
+      <div class="card">
+        <div class="bacisInfo">React</div>
+        <div class="info">40%</div>
+      </div>
+      <div class="card">
+        <div class="bacisInfo">Java</div>
+        <div class="info">70%</div>
+      </div>
+      <div class="card">
+        <div class="bacisInfo">Git</div>
+        <div class="info">90%</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A modern portfolio to showcase my skills and work.</p>
+        <a href="project.html">Read more</a>
+      </div>
+      <div class="project-card">
+        <h3>E-commerce Site</h3>
+        <p>Created a responsive Amazon-style store using HTML/CSS.</p>
+        <a href="project2.html">Read more</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: abhijitmoin11@gamil.com</p>
+    <p>GitHub: github.com/abhijitmoin</p>
+    <p>LinkedIn: linkedin.com/in/abhijit-moin</p>
+  </section>
+
+  <div id="contactForm" class="section">
+    <button id="hamburger">☰</button>
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Message</label>
+      <textarea name="message" rows="4"></textarea>
+
+      <button type="submit" id="send">Send</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 Abhijit Moin</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
